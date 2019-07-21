@@ -1,0 +1,160 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  color: #000;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin-top: 50px;
+}
+
+h2{
+  color: #f30067;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h4{
+  color: #40514E;
+  font-family: 'Sacramento', cursive;
+  font-size: 1.5rem;
+}
+
+hr{
+  border: dotted 6px;
+  color: #11999E;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a{
+  color: #fd0054;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+/*************************CLASS SELECTORS***********************/
+.top-container{
+  background-color: #ffffb5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+  background-color: #f9fce1;
+  margin-top: auto;
+}
+
+.bottom-container{
+  background-color: #b6f7c1;
+  margin: 0;
+  padding: 50px 0 20px;
+}
+
+.top-sun{
+  position: absolute;
+  width: 150px;
+  right: 200px;
+  margin-right: 100px;
+  top: 50px;
+}
+
+.bottom-bug{
+  position: absolute;
+  width: 70px;
+  left: 100px;
+  margin-left: 20%;
+  margin-bottom: 150px;
+  transform: rotate(20deg);
+  bottom: 300px;
+}
+
+.title-picture {
+  height: 350px;
+  margin-top: 50px;
+}
+
+.profile-picture{
+  height: 200px;
+  border-radius: 200px;
+  margin-top: 50px;
+}
+
+.partnership{
+  height: 200px;
+  border-radius: 200px;
+  padding: 0;
+}
+
+.podnaslov{
+  color: #000;
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  font-weight: normal;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  margin-bottom: 150px;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.partnership{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.hello-text{
+  color: #40514E;
+  margin: auto;
+  width: 30%;
+  line-height: 2;
+}
+
+.btn{
+  background-color: #66BFBF;
+  border-radius: 8px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.paragraf2{
+  color: black;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.proposal{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  line-height: 2;
+}
